@@ -1,0 +1,15 @@
+a = [12, 23, 34, 45]
+print("original list: ", a)
+print("access the list items:")
+for i in range(0, 4):
+    print(a[i])
+print("updating the list:")
+print("add items:")
+a.insert(4, 90)
+print(a)
+print("remove items:")
+a.remove(90)
+print(a)
+print("deleting the entire list!")
+del(a)
+print("deleted")
